@@ -87,3 +87,14 @@ from moviepy.editor import ImageSequenceClip
 
 clip = ImageSequenceClip(video_frames, fps=8)
 clip.write_videofile("output_video.mp4")
+```
+
+## 📌 Summary
+
+| Step             | Description                                     |
+| ---------------- | ----------------------------------------------- |
+| 1. Add noise     | Gaussian noise applied to each frame (training) |
+| 2. Learn reverse | Model learns to denoise it (training)           |
+| 3. Generate      | Start from noise, guide using prompt            |
+| 4. Output        | Get a smooth, coherent short video              |
+
