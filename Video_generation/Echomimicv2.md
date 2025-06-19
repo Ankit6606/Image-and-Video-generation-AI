@@ -80,3 +80,37 @@ git clone https://github.com/antgroup/echomimic_v2
 cd echomimic_v2
 # Follow the GPU setup instructions
 # Run inference using your reference image, audio, and optional pose
+```
+
+
+# 🧠 EchoMimic v2 vs MediaPipe Hand Tracking
+
+A direct comparison between **EchoMimic v2** and **MediaPipe Hand**, focusing on their **goals, methods, outputs**, and **use cases**.
+
+---
+
+## 🔍 Core Differences
+
+| Feature          | **EchoMimic v2**                                     | **MediaPipe Hand**                                   |
+|------------------|------------------------------------------------------|-------------------------------------------------------|
+| 🧠 **Purpose**     | Generate half-body animation from audio             | Track real hand movements from webcam/video           |
+| 📥 **Input**       | Static image + audio (optional: hand/pose reference) | Live or recorded video feed                           |
+| 🎯 **Output**      | AI-generated animated video (face + hand motion)    | 2D/3D landmark positions of hands                     |
+| 🏗️ **Use Case**    | Talking avatars, virtual humans, speech animation   | Gesture control, sign recognition, AR, HCI            |
+| 💡 **Control Level** | Indirect control (via voice/audio tone)             | Full real-time pose control                           |
+| 🎨 **Visual Output** | Realistic video generation                          | Landmark overlay or raw data for other applications   |
+| ⚙️ **Tech Stack**   | Deep Learning + GAN + Diffusion                     | Classical + ML vision (fast + efficient)              |
+| 📦 **Deployment**   | Heavy (needs GPU, large models, high VRAM)          | Lightweight (runs on mobile or browser)               |
+
+---
+
+## 🧪 Summary by Use Case
+
+| Use Case                        | Best Choice       |
+|----------------------------------|-------------------|
+| Create AI avatar from voice      | ✅ EchoMimic v2    |
+| Track real hand in live app      | ✅ MediaPipe       |
+| Sign language detection          | ✅ MediaPipe       |
+| AI explainer/presenter           | ✅ EchoMimic v2    |
+| Game hand input/controller       | ✅ MediaPipe       |
+
