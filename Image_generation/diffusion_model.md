@@ -78,3 +78,19 @@ Diffusion models are **generative models** that learn to create data (like image
 
 ## 📌 Summary Flowchart
 
+Original Image → Add Noise → [Training: Learn to Reverse] → Train Model
+
+New Image Generation:
+Noise → Apply Model Repeatedly (Denoising Steps) → Realistic Image
+
+---
+
+## 🧠 Key Concepts to Remember
+
+| Term         | Meaning                                                  |
+| ------------ | -------------------------------------------------------- |
+| **Diffusion**    | Adding/removing noise gradually                          |
+| **Latent Space** | Compressed feature space (used in Stable Diffusion)      |
+| **Guidance**     | Conditioning image generation using text or other inputs |
+| **Scheduler**    | Defines how noise is reduced per step (DDIM, PNDM, etc.) |
+| **U-Net**        | The neural architecture typically used in the model      |
