@@ -65,7 +65,7 @@ The final image is saved via a **SaveImage** node to your output folder.
 
 ## 🔗 Visual Representation of the Pipeline
 
-<pre lang="md"> ``` [Text Prompt] --> [Text Encoder] ↓ [SDXL Checkpoint] --> [UNet Generator + LoRA] ↓ --> [KSampler (denoising)] ↓ --> [VAE Decode] ↓ --> [SaveImage] ``` </pre>
+![ComfyUI Workflow](./Screenshot%202025-06-26%20211159.png)
 
 ---
 
