@@ -65,19 +65,7 @@ The final image is saved via a **SaveImage** node to your output folder.
 
 ## 🔗 Visual Representation of the Pipeline
 
-[Text Prompt] --> [CLIP Text Encode]
-↓
-[SDXL Checkpoint] --> [UNet Generator + LoRA]
-↓
---> [KSampler (denoising)]
-↓
---> [VAE Decode]
-↓
---> [SaveImage]
-
-yaml
-Copy
-Edit
+<pre lang="md"> ``` [Text Prompt] --> [Text Encoder] ↓ [SDXL Checkpoint] --> [UNet Generator + LoRA] ↓ --> [KSampler (denoising)] ↓ --> [VAE Decode] ↓ --> [SaveImage] ``` </pre>
 
 ---
 
