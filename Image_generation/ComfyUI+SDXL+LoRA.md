@@ -65,7 +65,7 @@ The final image is saved via a **SaveImage** node to your output folder.
 
 ## 🔗 Visual Representation of the Pipeline
 
-![ComfyUI Workflow](./Screenshot%202025-06-26%20211159.png)
+![ComfyUI Workflow](./.assets/Screenshot%202025-06-26%20211159.png)
 
 ---
 
